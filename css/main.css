@@ -29,12 +29,12 @@ nav.navbar {
 }
 
 .image-equip.card {
-    margin: 20px;
+    margin: 1rem;
 }
 
 .image-equip-single.card {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .tab-title {
