@@ -65,7 +65,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-center">
-                    <div class="card">
+                <div class="image-equip card">
                         <img class="card-img-top" src="../../../img/cooper-f6.jpg" alt="Card image cap">
                     </div>
                 </div>
@@ -73,118 +73,179 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="title-equip text-center col-md-8 col-center">
+                <div class="tab-title col-md-8 col-center text-center">
                     <h3>COOPER F6</h3>
                     <p class="lead">Religador automático microprocessado fabricado pela Cooper modelo F6 com seccionamento a vácuo e isolação a gás SF6.</p>
-                    <h4>Instruções</h4>
-
-                    <div class="accordion" id="accordionExample">
-                        <div class="card">
-                            <div class="card-header" id="heading0">
-                                <h5 class="mb-0">
-                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse0" aria-expanded="true" aria-controls="collapse0">
-                                        Comando local ou remoto
-                                    </button>
-                                </h5>
-                            </div>
-
-                            <div id="collapse0" class="collapse show" aria-labelledby="heading0" data-parent="#accordionExample">
-                                <div class="card-body">
-                                    <p>Para passar para LOCAL ou REMOTO, basta pressionar MODIFICAR e em seguida o botão REMOTO DESABILITADO.</p>
-                                    <p>
-                                        <i>Observar que os LEDs sempre concordam com o que está escrito no botão.</i>
-                                    </p>
-                                    <img class="card-img-top" src="../../../img/painel-frontal-f6-local-remoto.jpg" alt="Card image cap">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" id="heading1">
-                                <h5 class="mb-0">
-                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
-                                        Comando abrir ou fechar
-                                    </button>
-                                </h5>
-                            </div>
-
-                            <div id="collapse1" class="collapse" aria-labelledby="heading1" data-parent="#accordionExample">
-                                <div class="card-body">
-                                    <p>Para ABRIR ou FECHAR o RA, basta pressionar o botão respectivo que o equipamento atuará.</p>
-                                    <img class="card-img-top" src="../../../img/cooper-f6-abrir-e-fechar.jpg" alt="Card image cap">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" id="heading2">
-                                <h5 class="mb-0">
-                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
-                                        Bloqueio de religamento
-                                    </button>
-                                </h5>
-                            </div>
-
-                            <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#accordionExample">
-                                <div class="card-body">
-                                    <p>Clicar em MODIFICAR e em seguida em RELIGAMENTO BLOQUEADO.</p>
-                                    <p>
-                                        <i>Observar que os LEDs sempre concordam com o que está escrito no botão.</i>
-                                    </p>
-                                    <img class="card-img-top" src="../../../img/painel-frontal-f6-bloqueio-relig.jpg" alt="Card image cap">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" id="heading3">
-                                <h5 class="mb-0">
-                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
-                                        Bloqueio de disparo por terra
-                                    </button>
-                                </h5>
-                            </div>
-
-                            <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordionExample">
-                                <div class="card-body">
-                                    <p>Clicar em MODIFICAR e em seguida em TERRA BLOQUEADO.</p>
-                                    <p>
-                                        <i>Observar que os LEDs sempre concordam com o que está escrito no botão.</i>
-                                    </p>
-                                    <img class="card-img-top" src="../../../img/painel-frontal-f6-bloqueio-terra.jpg" alt="Card image cap">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- <div class="card">
-                        <a href="ctr/index.html" class="instruction">
-                            <div class="card-body">
-                                <h5>Controle</h5>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="card">
-                        <a href="mec/index.html" class="instruction">
-                            <div class="card-body">
-                                <h5>Mecanismo</h5>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="card">
-                        <a href="ope/index.html" class="instruction">
-                            <div class="card-body">
-                                <h5>Operação</h5>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="card">
-                        <a href="part/index.html" class="instruction">
-                            <div class="card-body">
-                                <h5>Particularidades</h5>
-                            </div>
-                        </a>
-                    </div> -->
-
 
                 </div>
+                <div class="tab-nav col-md-8 col-center text-center">
+                    <ul class="nav nav-pills nav-fill" id="myTab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Instruções</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Possíveis defeitos</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-content col-md-8 col-center text-center" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        <div class="accordion" id="accordionExample">
+                            <div class="card card-padding">
+                                <div class="card-header" id="heading0">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse0" aria-expanded="false" aria-controls="collapse0">
+                                            Comando local ou remoto
+                                        </button>
+                                    </h5>
+                                </div>
+
+                                <div id="collapse0" class="collapse" aria-labelledby="heading0" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p>Para passar para LOCAL ou REMOTO, basta pressionar MODIFICAR e em seguida o botão REMOTO DESABILITADO.</p>
+                                        <p>
+                                            <i>Observar que os LEDs sempre concordam com o que está escrito no botão.</i>
+                                        </p>
+                                        <img class="card-img-top" src="../../../img/painel-frontal-f6-local-remoto.jpg" alt="Card image cap">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card card-padding">
+                                <div class="card-header" id="heading1">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                                            Comando abrir ou fechar
+                                        </button>
+                                    </h5>
+                                </div>
+
+                                <div id="collapse1" class="collapse" aria-labelledby="heading1" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p>Para ABRIR ou FECHAR o RA, basta pressionar o botão respectivo que o equipamento atuará.</p>
+                                        <img class="card-img-top" src="../../../img/cooper-f6-abrir-e-fechar.jpg" alt="Card image cap">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card card-padding">
+                                <div class="card-header" id="heading2">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                                            Bloqueio de religamento
+                                        </button>
+                                    </h5>
+                                </div>
+
+                                <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p>Clicar em MODIFICAR e em seguida em RELIGAMENTO BLOQUEADO.</p>
+                                        <p>
+                                            <i>Observar que os LEDs sempre concordam com o que está escrito no botão.</i>
+                                        </p>
+                                        <img class="card-img-top" src="../../../img/painel-frontal-f6-bloqueio-relig.jpg" alt="Card image cap">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card card-padding">
+                                <div class="card-header" id="heading3">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                                            Bloqueio de disparo por terra
+                                        </button>
+                                    </h5>
+                                </div>
+
+                                <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p>Clicar em MODIFICAR e em seguida em TERRA BLOQUEADO.</p>
+                                        <p>
+                                            <i>Observar que os LEDs sempre concordam com o que está escrito no botão.</i>
+                                        </p>
+                                        <img class="card-img-top" src="../../../img/painel-frontal-f6-bloqueio-terra.jpg" alt="Card image cap">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                        <div class="accordion" id="accordionExample">
+                            <div class="card card-padding">
+                                <div class="card-header" id="heading0">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse0" aria-expanded="false" aria-controls="collapse0">
+                                            Religador não fecha
+                                        </button>
+                                    </h5>
+                                </div>
+
+                                <div id="collapse0" class="collapse" aria-labelledby="heading0" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p>Para passar para LOCAL ou REMOTO, basta pressionar MODIFICAR e em seguida o botão REMOTO DESABILITADO.</p>
+                                        <p>
+                                            <i>Observar que os LEDs sempre concordam com o que está escrito no botão.</i>
+                                        </p>
+                                        <img class="card-img-top" src="../../../img/painel-frontal-f6-local-remoto.jpg" alt="Card image cap">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card card-padding">
+                                <div class="card-header" id="heading1">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                                            Comando abrir ou fechar
+                                        </button>
+                                    </h5>
+                                </div>
+
+                                <div id="collapse1" class="collapse" aria-labelledby="heading1" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p>Para ABRIR ou FECHAR o RA, basta pressionar o botão respectivo que o equipamento atuará.</p>
+                                        <img class="card-img-top" src="../../../img/cooper-f6-abrir-e-fechar.jpg" alt="Card image cap">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card card-padding">
+                                <div class="card-header" id="heading2">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                                            Bloqueio de religamento
+                                        </button>
+                                    </h5>
+                                </div>
+
+                                <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p>Clicar em MODIFICAR e em seguida em RELIGAMENTO BLOQUEADO.</p>
+                                        <p>
+                                            <i>Observar que os LEDs sempre concordam com o que está escrito no botão.</i>
+                                        </p>
+                                        <img class="card-img-top" src="../../../img/painel-frontal-f6-bloqueio-relig.jpg" alt="Card image cap">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card card-padding">
+                                <div class="card-header" id="heading3">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                                            Bloqueio de disparo por terra
+                                        </button>
+                                    </h5>
+                                </div>
+
+                                <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p>Clicar em MODIFICAR e em seguida em TERRA BLOQUEADO.</p>
+                                        <p>
+                                            <i>Observar que os LEDs sempre concordam com o que está escrito no botão.</i>
+                                        </p>
+                                        <img class="card-img-top" src="../../../img/painel-frontal-f6-bloqueio-terra.jpg" alt="Card image cap">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
             </div>
         </div>
 

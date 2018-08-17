@@ -28,10 +28,33 @@ nav.navbar {
     margin-top: 90px;
 }
 
-.card {
-    margin: 20px;
+.image-equip.card {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
+.tab-title {
+    padding-top: 10px;
+}
+
+.tab-nav {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.tab-content {
+    padding-top: 10px;
+    padding-bottom: 60px;
+}
+
+.card-padding {
+    margin: 0;
+}
+
+
+.card-header button.btn {
+    padding: 0.5rem 4.5rem;
+}
 .cards {
     margin-bottom: 60px;
 }
