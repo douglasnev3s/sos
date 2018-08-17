@@ -60,7 +60,8 @@ nav.navbar {
 }
 
 .card-header button.btn {
-    padding: 0.5rem 4.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 .cards {
     margin-bottom: 60px;
