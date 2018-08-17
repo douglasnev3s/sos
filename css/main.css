@@ -29,6 +29,10 @@ nav.navbar {
 }
 
 .image-equip.card {
+    margin: 20px;
+}
+
+.image-equip-single.card {
     margin-top: 20px;
     margin-bottom: 20px;
 }
