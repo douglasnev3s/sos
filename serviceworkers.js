@@ -1,10 +1,11 @@
-let cacheName = 'sos-copel-v.1.0.6';
+let cacheName = 'sos-copel-v.1.0.7';
 let filesToCache = [
     './',
     'index.html',
     'se/index.html',
     'se/ra/index.html',
     'se/ra/cooper-f6/index.html',
+    'se/ra/arteche-p500/index.html',
     'manifest.json',
     'css/bootstrap.min.css',
     'css/main.css',
@@ -39,6 +40,9 @@ let filesToCache = [
     'img/westinghouse.jpg',
     'img/whipp-bourne.jpg',
     'img/ziv.jpg',
+    'img/arteche-p500.jpg',
+    'img/painel-frontal-f6-modo-chave.jpg',
+    'img/cooper-f6-confirmacao-fechamento.jpg',
     'logo48@1x.png',
     'logo96@2x.png',
     'logo192@4x.png',
