@@ -1,14 +1,12 @@
-let cacheName = 'sos-copel-v.1.0.4';
+let cacheName = 'sos-copel-v.1.0.5';
 let filesToCache = [
     './',
     'index.html',
-    'css/bootstrap.min.css.map',
     'css/bootstrap.min.css',
     'css/main.css',
     'js/array.observe.polyfill.js',
     'js/object.observe.polyfill.js',
     'js/jquery-3.3.1.min.js',
-    'js/bootstrap.min.js.map',
     'js/bootstrap.min.js',
     'js/main.js',
     'img/subestacao.jpg',
