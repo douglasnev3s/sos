@@ -5,7 +5,7 @@ nav.navbar {
     width: 100%;
     z-index: 2;
 }
-.title-home {
+.tab-title h3 {
     padding-top: 1rem;
 }
 
@@ -55,6 +55,9 @@ nav.navbar {
     margin: 0;
 }
 
+.description {
+    padding: 1rem 0;
+}
 
 .card-header button.btn {
     padding: 0.5rem 4.5rem;
