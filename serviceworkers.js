@@ -11,7 +11,6 @@ let filesToCache = [
     'se/ra/arteche-p500',
     'se/ra/arteche-p500/index.html',
     'gsst/index.html',
-    'manifest.json',
     'css/bootstrap.min.css',
     'css/open-iconic-bootstrap.min.css',
     'css/main.css',
@@ -57,6 +56,8 @@ let filesToCache = [
     'logo48@1x.png',
     'logo96@2x.png',
     'logo192@4x.png',
+    'favicon.png',
+    'manifest.json',
 ];
 
 self.addEventListener('install', function (e) {
