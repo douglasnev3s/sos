@@ -1,4 +1,4 @@
-let cacheName = 'sos-copel-v.1.0.11';
+let cacheName = 'sos-copel-v.1.0.12';
 let filesToCache = [
     './',
     'index.html',
