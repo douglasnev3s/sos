@@ -23,6 +23,10 @@ body.preloader-site {
     width: 120px;
 }
 
+/* Icone Voltar */
+
+
+
 /* Website */
 
 nav.navbar {
@@ -96,6 +100,33 @@ nav.navbar {
 
 .col-center {
     margin: 0 auto;
+}
+
+.back {
+    position: fixed;
+    right: 30px;
+    bottom: 50px;
+    width: 40px;
+    height: 40px;
+    background-color: #FF6600;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.back span.icone-voltar {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.back a {
+    position: relative;
+    top: 6px;
+    vertical-align: middle;
+    padding: 10px 14px;
+}
+
+.back:hover {
+    background-color: #fd7e14;
 }
 
 .footer {
