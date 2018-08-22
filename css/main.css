@@ -104,7 +104,7 @@ nav.navbar {
 
 .back {
     position: fixed;
-    right: 30px;
+    left: 10px;
     bottom: 50px;
     width: 40px;
     height: 40px;
