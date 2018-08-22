@@ -22,41 +22,19 @@ $(window).on('load', function () {
 });
 
 //Plugin Modal
-
 // Get the modal
 var modal = document.getElementById('myModal');
-var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption");
-
+var modalImg = document.getElementById("myModalImg");
+var captionText = document.getElementById("myModalCaption");
 // Get the image and insert it inside the modal - use its "alt" text as a caption
-
-var img0 = document.getElementById('myImg0');
-img0.onclick = function () {
+function insertImageOnModal(src,alt) {
     modal.style.display = "block";
-    modalImg.src = this.src;
-    captionText.innerHTML = this.alt;
+    modalImg.src = src;
+    captionText.innerHTML = alt;
 }
-
-var img1 = document.getElementById('myImg1');
-img1.onclick = function () {
-    modal.style.display = "block";
-    modalImg.src = this.src;
-    captionText.innerHTML = this.alt;
-}
-
-var img2 = document.getElementById('myImg2');
-img2.onclick = function () {
-    modal.style.display = "block";
-    modalImg.src = this.src;
-    captionText.innerHTML = this.alt;
-}
-
 // Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+var closeModal = document.getElementById("close");
 
-// When the user clicks on <span> (x), close the modal
-span.onclick = function () {
+function closeImg() {
     modal.style.display = "none";
 }
-
-document.getElementsByClassName

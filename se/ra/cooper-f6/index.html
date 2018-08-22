@@ -99,9 +99,9 @@
                 </div>
                 <div class="tab-content col-md-8 col-center text-center" id="myTabContent">
                     <div id="myModal" class="modal">
-                        <span class="close">&times;</span>
-                        <img class="modal-content" id="img01">
-                        <div id="caption"></div>
+                        <span onClick="closeImg();" class="close">&times;</span>
+                        <img class="modal-content" id="myModalImg">
+                        <div id="myModalCaption"></div>
                     </div>
                     <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                         <div class="accordion" id="accordionExample">
@@ -120,7 +120,7 @@
                                         <p>
                                             <i>Observar que os LEDs acesos sempre concordam com o que está escrito no botão.</i>
                                         </p>
-                                        <img id="myImg0" class="card-img-top" src="../../../img/painel-frontal-f6-local-remoto.jpg " alt="Card image cap ">
+                                        <img onClick="insertImageOnModal(this.src,this.alt);" class="card-img-top" src="../../../img/painel-frontal-f6-local-remoto.jpg " alt="Habilitar local/remoto">
                                     </div>
                                 </div>
                             </div>
@@ -140,8 +140,8 @@
                                         <p>
                                             <i>Sempre confirmar a abertura ou fechamento do RA MECANICAMENTE, conforme abaixo:</i>
                                         </p>
-                                        <img id="myImg1" class="card-img-top" src="../../../img/cooper-f6-abrir-e-fechar.jpg" alt="Card image cap">
-                                        <img id="myImg2" class="card-img-top" src="../../../img/cooper-f6-confirmacao-fechamento.jpg" alt="Card image cap">
+                                        <img onClick="insertImageOnModal(this.src,this.alt);" class="card-img-top" src="../../../img/cooper-f6-abrir-e-fechar.jpg" alt="Card image cap">
+                                        <img onClick="insertImageOnModal(this.src,this.alt);" class="card-img-top" src="../../../img/cooper-f6-confirmacao-fechamento.jpg" alt="Card image cap">
                                     </div>
                                 </div>
                             </div>
@@ -160,7 +160,7 @@
                                         <p>
                                             <i>Observar que os LEDs acesos sempre concordam com o que está escrito no botão.</i>
                                         </p>
-                                        <img class="card-img-top" src="../../../img/painel-frontal-f6-bloqueio-relig.jpg" alt="Card image cap">
+                                        <img onClick="insertImageOnModal(this.src,this.alt);" class="card-img-top" src="../../../img/painel-frontal-f6-bloqueio-relig.jpg" alt="Card image cap">
                                     </div>
                                 </div>
                             </div>
@@ -179,7 +179,7 @@
                                         <p>
                                             <i>Observar que os LEDs acesos sempre concordam com o que está escrito no botão.</i>
                                         </p>
-                                        <img class="card-img-top" src="../../../img/painel-frontal-f6-bloqueio-terra.jpg" alt="Card image cap">
+                                        <img onClick="insertImageOnModal(this.src,this.alt);" class="card-img-top" src="../../../img/painel-frontal-f6-bloqueio-terra.jpg" alt="Card image cap">
                                     </div>
                                 </div>
                             </div>
@@ -198,7 +198,7 @@
                                         <p>
                                             <i>Observar que os LEDs acesos sempre concordam com o que está escrito no botão.</i>
                                         </p>
-                                        <img class="card-img-top" src="../../../img/painel-frontal-f6-modo-chave.jpg" alt="Card image cap">
+                                        <img onClick="insertImageOnModal(this.src,this.alt);" class="card-img-top" src="../../../img/painel-frontal-f6-modo-chave.jpg" alt="Card image cap">
                                     </div>
                                 </div>
                             </div>
