@@ -33,7 +33,6 @@ function insertImageOnModal(src,alt) {
     captionText.innerHTML = alt;
 }
 // Get the <span> element that closes the modal
-var closeModal = document.getElementById("close");
 
 function closeImg() {
     modal.style.display = "none";
